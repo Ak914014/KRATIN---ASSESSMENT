@@ -1,0 +1,442 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    font-family: "Montserrat", sans-serif;
+}
+nav{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    /* background-color:antiquewhite ; */
+}
+nav img {
+    width: 200px;
+    height: 70px;
+    margin-left: 100px;
+}
+nav ul{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+nav ul li {
+    list-style: none;
+    padding: 20px;
+}
+.home{
+    color: rgb(7, 103, 168);
+    font-weight: 700;
+
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.page-1{
+   display: inline-block;
+}
+.backgorund-color{
+    width: 100%;
+    height: 672px;
+    background: linear-gradient(90deg, #75CFFF 22.19%, rgba(117, 207, 255, 0) 68.54%);
+}
+
+#left{
+    width: 45%;
+    margin-left:100px;
+}
+#left h1{
+
+    font-size: 50px;
+    padding-top: 100px;
+    color: rgba(0, 0, 0, 0.859);
+}
+#left p{
+    padding-top: 20px;
+    font-size: 25px;
+    line-height: 35px;
+}
+.book-btn{
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(19, 142, 209);
+    border-radius: 10px;
+    margin-top: 30px;
+    border: rgba(128, 128, 128, 0.176) 2px solid;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: block;
+}
+.book-btn:hover{
+    background-color: #fff;
+    color: rgb(19, 142, 209);
+}
+.download-btn{
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: rgba(128, 128, 128, 0.176) 2px solid;
+    color: rgb(19, 142, 209);
+    font-size: 25px;
+    cursor: pointer;
+    display: block;
+}
+.download-btn:hover{
+    color: #fff;
+    background-color: rgb(19, 142, 209);
+}
+#right{
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+.search-bar input{
+    width: 560px;
+    padding: 30px;
+    position: absolute;
+    top: 690px;
+    left: 300px;
+    /* border-radius: 12px; */
+    /* border: 2px rgba(128, 128, 128, 0.378) solid; */
+    border: none;
+    font-size: 25px;
+    box-shadow: 2px 2px 15px gray;
+}    
+
+.search-bar-blue{
+    width: 100px;
+    height: 89px;
+    position: absolute;
+    top: 690px;
+    left: 920px;
+    background-color: rgb(19, 142, 209);
+}
+.search-bar-blue i{
+    color: #fff;
+    font-size: 30px;
+    padding: 30px;
+    cursor: pointer;
+}
+.page-2{
+    width: 100%;
+    height: 782px;
+    position: relative;
+}
+.page2-info{
+    width: 65%;
+    margin: auto;
+    padding-top: 100px;
+}
+.page2-info h1{
+    font-size: 52px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.page2-info p{
+    width: 90%;
+    font-size: 18px;
+    margin-left: 100px;
+    /* text-align: ; */
+    line-height: 30px;
+    color: rgb(85, 78, 78);
+}
+.card{
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 90px;
+    /* margin-left: 20px; */
+    box-shadow: 2px 2px 15px gray;
+
+}
+.card h1{
+   font-size: 30px;
+}
+.card button{
+    width: 200px;
+    background-color: rgb(19, 142, 209);
+    padding: 10px;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.card button:hover{
+    background-color: black;
+
+}
+.rating h1{
+    font-size: 20px;
+    display: inline;
+    margin-left: 30px;
+}
+.rating img{
+    width: 20px;
+    margin-left: 10px;
+    display: inline;
+}
+.rating p{
+display: inline;
+margin-left: 20px;
+}
+.card-div {
+    margin-left: 30px;
+}
+.dr-img img{
+
+    width: 250px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top:350px;
+    left: 50px;
+}
+.dr-cards{
+    display:inline-block;
+    position: relative;
+    margin-left: 20px;
+}
+
+.dr-suggestion{
+
+    width: 62%;
+    position: absolute;
+    top: 470px;
+    left: 37%;
+}
+.suggestion{
+
+    width: 85%;
+    height: auto;
+    /* background-color: #e7eced86; */
+    margin: auto;
+    margin-top: 12%;
+    border-radius: 12px;
+    border: 2px rgba(132, 131, 131, 0.158) solid;
+}
+.suggestion p {
+    font-size: 18px;
+    padding: 20px;
+    line-height: 25px;
+    width: 65%;
+}
+.suggestion h1{
+    font-size: 35px;
+    margin-left: 5%;
+}
+.medication-img{
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    left: 870px;
+}
+.medication{
+    position: relative;
+    height: 600px;
+}
+
+.medication h2{
+    margin-left: 2%;
+    padding: 20px;
+}
+
+.medication ul{
+
+    width: 65%;
+    margin-left: 5%;
+}
+
+.medication ul li{
+
+    font-size: 18px;
+    line-height: 25px;
+}
+.p-link{
+    color: rgb(19, 142, 209);
+
+}
+.memory{
+    position: relative;
+
+}
+.memory ul{
+    width: 65%;
+    margin-left: 5%;
+    margin-bottom: 100px;
+}
+
+.memory ul li{
+
+    font-size: 18px;
+    line-height: 25px;
+}
+.memory h2{
+    margin-left: 2%;
+    padding: 20px;
+}
+.contact {
+    margin-left: 150px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.contact h1{
+    font-size: 35px;
+    margin-left: 5%;
+}
+.contact p{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 60%;
+    font-size: 20px;
+}
+.contact form{
+    width: 65%;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 20px;
+    position: relative;
+    background-color:rgba(249, 249, 249, 1);
+    box-shadow: 2px 2px 15px gray;
+}
+.contact form label{
+    font-size: 20px;
+    margin-left: 3%;
+}
+
+.contact form input{
+    border-radius: 20px;
+    border: 2px rgb(190, 184, 184) solid;
+    box-shadow: 1px 1px 5px gray;
+    width: 380px;
+    padding: 20px;
+    margin-top: 70px;
+    margin-left: 3%;
+}
+
+.contact form textarea{
+    border-radius: 20px;
+    border: 2px rgb(190, 184, 184) solid;
+    box-shadow: 1px 1px 5px gray;
+    width: 330px;
+    padding: 20px;
+    margin-top: -25%;
+    margin-left: 55%;
+
+}
+.comment{
+
+    position: absolute;
+    left: 55%;
+    top: 10%;
+}
+.name{
+
+    position: absolute;
+    left: 3%;
+    top: 10%;
+}
+.email{
+
+    position: absolute;
+    left: 3%;
+    top: 40%;
+}
+.contact form button{
+    width: 150px;
+    padding: 10px;
+    margin-left: 5%;
+    background-color: rgb(19, 142, 209);
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+     border: none;
+}
+.contact form button:hover{
+  color: rgb(19, 142, 209);
+  background-color: white;
+   border: 2px solid gray;
+}
+.contact .contact-p{
+    font-size: 15px;
+}
+.contact-us{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    position: relative;
+    padding-bottom: 20px;
+    background: linear-gradient(90deg, #75CFFF 22.19%, rgba(117, 207, 255, 0) 68.54%);
+}
+.contact-us img{
+    position: absolute;
+    width: 300px;
+    left: 75%;
+}
+.bootom-line{
+    height: 5px;
+    background-color: gray;
+    border: none;
+
+}
+.book-dr{
+    width: 45%;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.number-bar input{
+    width: 200px;
+    padding: 30px;
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    border: none;
+    font-size: 25px;
+    box-shadow: 2px 2px 15px gray;
+}    
+.number{
+    width: 100px;
+    height: 89px;
+    position: absolute;
+    top: 160px;
+    left: 350px;
+    background-color: rgb(19, 142, 209);
+    box-shadow: 2px 2px 15px gray;
+}
+.number i{
+    color: #fff;
+    font-size: 30px;
+    padding: 30px;
+    cursor: pointer;
+}
+.left-bottom{
+    margin-left: 50%;
+    padding: 20px;
+}
+.fist-list{
+    margin-left: 0;
+
+}
+
+.second-list{
+    margin-left: 25%;
+    margin-top: -14.5%;   
+}
+.third-list{
+    margin-left: 50%;
+    margin-top: -14.5%;   
+}
+.bootom-text{
+    padding: 20px;
+    margin-left: 100px;
+}
